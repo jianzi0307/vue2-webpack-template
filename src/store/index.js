@@ -17,7 +17,7 @@ export default new Vuex.Store({
   },
   modules: {
     aModule,
-    bModule
+    bModule,
   },
   strict: process.env.NODE_ENV !== "production",
 });

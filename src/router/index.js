@@ -10,7 +10,7 @@ Vue.use(VueRouter);
 
 const router = new VueRouter({
   mode: "hash",
-  base: process.env.VUE_APP_BASE_URL || '/',
+  base: process.env.VUE_APP_BASE_URL || "/",
   routes: routes,
 });
 

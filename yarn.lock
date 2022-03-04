@@ -2,22 +2,15 @@
 # yarn lockfile v1
 
 
-"@alanojs/net@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.npmmirror.com/@alanojs/net/-/net-0.0.9.tgz#3596b3972190a5ec9d9e78a4495e3cba0f553291"
-  integrity sha512-OxEJ5cr9Ja31MMfGWdoDOVu1mM2eKjf6hXnyA8NFUNwrMtxwj5UVX9jnFORv8EgJGOtW01vYoZZI1lFnfXgWzA==
+"@alanojs/net@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.npmmirror.com/@alanojs/net/-/net-0.0.10.tgz#2fba9d65282d77013ea5ee17007ee85bda982185"
+  integrity sha512-DnB1fT0HJ/KmtJ2PiKFWpx0389ecIs8tOPNZ1Rv5jdLTMBM1WKlMm3Af1vTqbIoZ/mIDv39bNfSLhi8orTxDJA==
   dependencies:
-    "@alanojs/storage" "^0.0.4"
+    "@alanojs/storage" "^0.0.5"
     "@alanojs/tools" "^0.0.10"
     axios "^0.26.0"
     qs "^6.10.3"
-
-"@alanojs/storage@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.npmmirror.com/@alanojs/storage/-/storage-0.0.4.tgz#e8f777b12b05fb4054a75a391f213bbedad04160"
-  integrity sha512-3EWpRKGdf7JLZ7wdRYXk2KlJRYl/akA2tY28LHaV2r57Q1CwrhsPfOcp8wCw8C0dLJ7J8z/oPgAO3zliFSfASg==
-  dependencies:
-    "@alanojs/tools" "^0.0.8"
 
 "@alanojs/storage@^0.0.5":
   version "0.0.5"
@@ -37,14 +30,6 @@
   version "0.0.10"
   resolved "https://registry.npmmirror.com/@alanojs/tools/-/tools-0.0.10.tgz#f66b8132360aa1b849f4cbc5260a58519c27f327"
   integrity sha512-Sjo0RnN7zZbrjafginJAq0sOlAxBpYoARnwIOaoCDMcHRlFBc7U4a8ajolGEuIkg2oX9bi6Ad2UmQicHnUg+nw==
-  dependencies:
-    exif-js "^2.3.0"
-    uuid "^8.3.2"
-
-"@alanojs/tools@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.npmmirror.com/@alanojs/tools/-/tools-0.0.8.tgz#55d7da0251c13b2223f0c73afe8449dfb8024226"
-  integrity sha512-DJ81DyIBgBBJNtMYLYJmbahiq7Bf+jmRuSDiglOJWTJ4Tq7MU9G8jo7HGMLIrMGhr3oqH3CQEqGeeT/jO2SoUg==
   dependencies:
     exif-js "^2.3.0"
     uuid "^8.3.2"
