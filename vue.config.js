@@ -30,7 +30,7 @@ const vueConfig = {
     host: "0.0.0.0",
     port: 8080,
     // 代理
-    proxy: {},
+    // proxy: {},
   },
   chainWebpack: (config) => {
     config.plugins.delete("prefetch-index").delete("preload-index");

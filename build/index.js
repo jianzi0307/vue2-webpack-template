@@ -6,7 +6,7 @@ console.log(webpackConfig, process.env.VUE_APP_BASE_URL,process.env.NODE_ENV, '<
 
 module.exports = {
   applicationName: process.env.VUE_APP_APP_TITLE,
-  baseUrl: process.env.VUE_APP_BASE_URL,
+  baseUrl: process.env.VUE_APP_BASE_URL || '/',
   filenameHashing: process.env.FILE_NAME_HASHING,
   outputDir: process.env.VUE_APP_BUILD_OUTPUT_DIR,
   assetsDir: process.env.VUE_APP_ASSETS_DIR,
