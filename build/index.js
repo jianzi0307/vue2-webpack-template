@@ -2,7 +2,7 @@ const webpackConfig = require("./webpack.config");
 
 // .... 在这里进行其他相关设置
 
-console.log(webpackConfig, process.env.VUE_APP_BASE_URL,process.env.NODE_ENV, '<<<< webpackConfig')
+// console.log(webpackConfig, process.env.VUE_APP_BASE_URL,process.env.NODE_ENV, '<<<< webpackConfig')
 
 module.exports = {
   applicationName: process.env.VUE_APP_APP_TITLE,
