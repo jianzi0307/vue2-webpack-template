@@ -1,29 +1,33 @@
-# vue2-webpack-template2
+# vue2-webpack-template
+vue2.x + webpack + alanojs 脚手架
 
-## Project setup
+## 1. 安装@alanojs/cli
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+npm install -g @alanojs/cli
 ```
 
-### Compiles and minifies for production
+### 2. 通过脚手架`vue2-webpack-template`创建应用
 ```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
+alano create 应用名
 ```
 
-### Lints and fixes files
+### 3. 安装依赖
 ```
-yarn lint
+cd 应用名
+npm install
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 4. 命令说明
+```
+# 开发环境
+npm run dev 
+
+# 测试环境打包
+npm run build:test
+
+# 生产环境打包
+npm run build:prod
+
+# 生成分析报告
+npm run build:report
+```

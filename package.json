@@ -1,14 +1,20 @@
 {
-  "name": "vue2-webpack-template2",
-  "version": "0.1.0",
+  "name": "vue2-webpack-template",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "dev": "vue-cli-service serve",
+    "build:test": "vue-cli-service build --mode=test",
+    "build:prod": "vue-cli-service build --mode=prod",
+    "build:report": "vue-cli-service build --mode=prod --report",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@alanojs/net": "^0.0.9",
+    "@alanojs/storage": "^0.0.5",
+    "@alanojs/timer": "^0.0.4",
+    "@alanojs/tools": "^0.0.10",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
@@ -25,12 +31,17 @@
     "@vue/test-utils": "^1.0.3",
     "babel-eslint": "^10.1.0",
     "chai": "^4.1.2",
+    "compression-webpack-plugin": "5.0.1",
+    "cross-env": "^7.0.3",
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^6.2.2",
     "prettier": "^2.2.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
+    "simple-progress-webpack-plugin": "^2.0.0",
+    "terser-webpack-plugin": "^4.2.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "vue-template-compiler": "^2.6.11"
   }
 }
